@@ -1,0 +1,130 @@
+body {
+	/*font-family: courier new;*/
+	width:75%;
+	margin:1em auto 0 auto;
+	padding:0px 20px 20px 20px;
+	border:solid 2px grey;
+}
+#enregistrements, #listes {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 2em;
+}
+#ajoutAdherent {
+	width:50%;
+}
+#ajoutLivre {
+	width:50%;
+}
+#adh {
+	width:20%;
+}
+#dispos, #empr {
+	width:40%;
+}
+
+#adh fieldset, #dispos fieldset, #empr fieldset {
+	min-height:35em;
+}
+
+legend {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 2em;
+	color:white;
+	background-color: grey;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px black;
+    text-align: center;
+}
+ul {
+	padding-left: 20px;
+}
+li {
+	cursor:pointer;
+	background-color: white;
+	line-height: 1.5em;
+}
+li:hover {
+	background-color: lightgrey;
+}
+input {
+	padding:5px;
+	font-size: 1.2em;
+}
+
+input[type="button"] {
+	width:25%;
+}
+input[type="text"] {
+	width:70%;
+}
+
+input {
+	min-height:1.2em;
+}
+
+#listeAdherents p:hover{
+	background-color: gray;
+}
+
+#listeLivresDisponibles p:hover{
+	background-color: gray;
+}
+#listeLivresEmpruntes p:hover{
+	background-color: gray;
+}
+
+#listeLivresEmpruntes div{
+	display: flex;
+	flex-direction: row;
+	text-align: justify	;
+}
+
+
+#listeAdherents div{
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+}
+
+
+#listeLivresDisponibles div{
+	display: flex;
+	flex-direction: row;
+	text-align: justify	;
+}
+
+.livreIco{
+	width: 20px;
+	height: 20px;
+}
+
+#popUp{
+	position: absolute;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	background: beige;
+	width:300px;
+	height:300px;
+	border: solid black 1px;
+	border-radius: 5px;
+	margin-left: 35em;
+	margin-top: 10em;
+	visibility: hidden;
+}
+#imgPopUp{
+	width: 250px;
+	height: 250px;
+}
+
+#imgX{
+	margin-top:10px;
+	width: 30px;
+	height: 30px;
+}
